@@ -23,6 +23,20 @@
   width: 0;
   height: 0;
 }
+#map2{
+text-align: center;
+vertical-align: middle;
+line-height: 280px; 
+    -ms-transform: rotate(320deg); /* IE 9 */
+    -webkit-transform: rotate(320deg); /* Chrome, Safari, Opera */
+    transform: rotate(320deg);
+
+}
+
+    #us{font-weight: normal;
+    	font-family: 'Shadows Into Light', cursive;
+    	 text-transform: lowercase;
+    	 text-align: center; }
 
 .clearfix:before,
 .clearfix:after {
@@ -143,7 +157,9 @@ p{
 color: #fff;
 }
 
-
+#hidden-section{
+	display: none;
+}
 .link{
 	padding:15px 35px;
 	background:#7cc576;
@@ -203,7 +219,17 @@ color: #fff;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
+#searchbox{
+	margin:0 auto;
+	width:360px;
+	height: 270px;
+    background-color:#C6E2FF;
+     
+}
 
+#hid{
+	display: none;
+}
 .main-nav li a:hover{ 
 	text-decoration:none;
 	color: #7cc576;
@@ -225,6 +251,8 @@ color: #fff;
 	padding:0 0 0 0;
 	font-size:14px;
 	margin-bottom:40px;
+	background-image: url('img/mapsketch_rev1.jpg');
+	height:360px; 
 }
 .service-list-col1{
 	float:left;
@@ -257,6 +285,11 @@ color: #fff;
 	padding:0 0 0 0;
 	margin-bottom:25px;
 	font-size:14px;
+}
+#pitchers{
+	height:200px;
+	
+	overflow-y: scroll;
 }
 .featured-box h3{
 	margin-bottom:5px;
